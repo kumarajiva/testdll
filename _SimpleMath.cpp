@@ -11,7 +11,6 @@
 double Trap(double a, double b, double c)
 {
   double s=(a+b)*c/2;
-
   return s;
 }
 
@@ -20,7 +19,6 @@ double Trap(double a, double b, double c)
 double Lin(double x1, double x2, double y1, double y2, double x)
 {
   double y=(y2-y1)*(x-x1)/(x2-x1)+y1;
-
   return y;
 }
 

@@ -1,5 +1,3 @@
-//---------------------------------------------------------------------------
-
 #if defined(BUILD_DLL)
 # define DLL_EXP __declspec(dllexport)
 #else
@@ -9,9 +7,6 @@
 # define DLL_EXP
 # endif
 #endif
-
-//---------------------------------------------------------------------------
-
 
 //--------------Approximating Functions--------------------------------------
 void DLL_EXP LineApp(int N, double** (&Line), double& a, double& b);
